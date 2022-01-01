@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: url(https://t4.ftcdn.net/jpg/04/24/30/93/360_F_424309320_UkOxg2z3sq7yXwGnWCO6xBXkRI4byhnI.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+/* INDEX PAGE */
+
+.login_card{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 45px 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    transition: all linear 0.3s
+}
+
+.login_card:hover, .login_card:focus-within{
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.349);
+}
+
+.login_card h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login_card input{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 30em;
+    height: 2.5em;
+    padding: 0.75em;
+    display: block;
+    border: 0.15em solid #999;
+    border-radius: 5px;
+}
+
+.login_card input:focus-within{
+    outline: none;
+}
+
+.forgot_pwd{
+    text-align: right;
+}
+
+.forgot_pwd a{
+    color: #000;
+    font-size: 11px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.forgot_pwd a:hover{
+    text-decoration: underline;
+}
+
+.button{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.button button{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 8px 30px;
+    transition: all linear 0.3s;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button button a{
+    color: #000;
+}
+
+/* INDEX PAGE */
+
+/* Patient Page */
+
+.nav_bar{
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.nav_bar a{
+    color: #fff;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.nav_bar a:hover{
+    color: #000;
+}
+
+#user_schedule{
+    margin-top: 60px;
+    background: #fff;
+    padding: 40px;
+}
+
+.pt_detail_heading{
+    border: 0.1em solid #000;
+    display: flex;
+}
+
+.pt_detail{
+    border-right: 0.1em solid #000;
+    padding: 0 5em;
+}
+
+.pt_detail:last-child{
+    border-right: 0;
+}
