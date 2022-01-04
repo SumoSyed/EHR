@@ -13,6 +13,10 @@ body{
     background-size: cover;
 }
 
+.container{
+    width: 1160px;
+}
+
 /* INDEX PAGE */
 
 .login_card{
@@ -112,16 +116,16 @@ body{
     padding: 40px;
 }
 
-.pt_detail_heading{
-    border: 0.1em solid #000;
-    display: flex;
+.schedule{
+    margin: 0 auto;
 }
 
-.pt_detail{
-    border-right: 0.1em solid #000;
-    padding: 0 5em;
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
 }
 
-.pt_detail:last-child{
-    border-right: 0;
+th, td {
+	padding: 5px;
+	text-align: left;
 }
